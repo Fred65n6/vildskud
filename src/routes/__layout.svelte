@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Footer</p>
 </footer>
 
 <style>
@@ -32,9 +32,8 @@
 		align-items: center;
 		padding: 40px;
 	}
-
-	footer a {
-		font-weight: bold;
+	main {
+		padding-block: 4rem;
 	}
 
 	@media (min-width: 480px) {
