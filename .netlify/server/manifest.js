@@ -28,13 +28,12 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png", "robots.txt", "svelte-welcome.png", "svelte-welcome.webp"]),
   mimeTypes: { ".png": "image/png", ".txt": "text/plain", ".webp": "image/webp" },
   _: {
-    entry: { "file": "start-3e4d1df1.js", "js": ["start-3e4d1df1.js", "chunks/index-2db0445a.js", "chunks/index-a0e90cc4.js", "chunks/singletons-d1fb5791.js"], "css": [] },
+    entry: { "file": "start-bb1a2c88.js", "js": ["start-bb1a2c88.js", "chunks/index-05506788.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/3.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/2.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/4.js")))
+      () => Promise.resolve().then(() => __toESM(require("./nodes/3.js")))
     ],
     routes: [
       {
@@ -50,24 +49,13 @@ const manifest = {
       },
       {
         type: "page",
-        id: "about",
-        pattern: /^\/about\/?$/,
+        id: "om_os",
+        pattern: /^\/om_os\/?$/,
         names: [],
         types: [],
-        path: "/about",
+        path: "/om_os",
         shadow: null,
         a: [0, 3],
-        b: [1]
-      },
-      {
-        type: "page",
-        id: "todos",
-        pattern: /^\/todos\/?$/,
-        names: [],
-        types: [],
-        path: "/todos",
-        shadow: () => Promise.resolve().then(() => __toESM(require("./entries/endpoints/todos/index.js"))),
-        a: [0, 4],
         b: [1]
       }
     ],

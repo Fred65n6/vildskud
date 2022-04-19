@@ -1,8 +1,6 @@
-var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
-var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __export = (target, all) => {
   for (var name in all)
@@ -16,17 +14,30 @@ var __copyProps = (to, from, except, desc) => {
   }
   return to;
 };
-var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  css: () => css,
-  entry: () => entry,
-  js: () => js,
-  module: () => module2
+  default: () => Om_os,
+  hydrate: () => hydrate,
+  prerender: () => prerender,
+  router: () => router
 });
 module.exports = __toCommonJS(stdin_exports);
-var module2 = __toESM(require("../entries/pages/todos/index.svelte.js"));
-const entry = "pages/todos/index.svelte-4103622b.js";
-const js = ["pages/todos/index.svelte-4103622b.js", "chunks/index-2db0445a.js", "chunks/singletons-d1fb5791.js"];
-const css = ["assets/pages/todos/index.svelte-a910a02d.css"];
+var import_index_3be38542 = require("../../chunks/index-3be38542.js");
+const browser = false;
+const dev = false;
+var om_os_svelte_svelte_type_style_lang = "";
+const css = {
+  code: ".content.svelte-cf77e8{width:100%;max-width:var(--column-width);margin:var(--column-margin-top) auto 0 auto}",
+  map: null
+};
+const hydrate = dev;
+const router = browser;
+const prerender = true;
+const Om_os = (0, import_index_3be38542.c)(($$result, $$props, $$bindings, slots) => {
+  $$result.css.add(css);
+  return `${$$result.head += `${$$result.title = `<title>About</title>`, ""}`, ""}
+
+<div class="${"content svelte-cf77e8"}"><h1>Om os</h1>
+</div>`;
+});

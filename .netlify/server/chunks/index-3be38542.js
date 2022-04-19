@@ -20,14 +20,9 @@ __export(stdin_exports, {
   a: () => subscribe,
   b: () => add_attribute,
   c: () => create_ssr_component,
-  d: () => safe_not_equal,
   e: () => escape,
-  f: () => now,
   g: () => getContext,
-  h: () => each,
-  l: () => loop,
   m: () => missing_component,
-  n: () => noop,
   s: () => setContext,
   v: () => validate_component
 });
@@ -43,42 +38,12 @@ function blank_object() {
 function run_all(fns) {
   fns.forEach(run);
 }
-function safe_not_equal(a, b) {
-  return a != a ? b == b : a !== b || (a && typeof a === "object" || typeof a === "function");
-}
 function subscribe(store, ...callbacks) {
   if (store == null) {
     return noop;
   }
   const unsub = store.subscribe(...callbacks);
   return unsub.unsubscribe ? () => unsub.unsubscribe() : unsub;
-}
-const is_client = typeof window !== "undefined";
-let now = is_client ? () => window.performance.now() : () => Date.now();
-let raf = is_client ? (cb) => requestAnimationFrame(cb) : noop;
-const tasks = /* @__PURE__ */ new Set();
-function run_tasks(now2) {
-  tasks.forEach((task) => {
-    if (!task.c(now2)) {
-      tasks.delete(task);
-      task.f();
-    }
-  });
-  if (tasks.size !== 0)
-    raf(run_tasks);
-}
-function loop(callback) {
-  let task;
-  if (tasks.size === 0)
-    raf(run_tasks);
-  return {
-    promise: new Promise((fulfill) => {
-      tasks.add(task = { c: callback, f: fulfill });
-    }),
-    abort() {
-      tasks.delete(task);
-    }
-  };
 }
 let current_component;
 function set_current_component(component) {
@@ -108,13 +73,6 @@ function escape(html) {
 }
 function escape_attribute_value(value) {
   return typeof value === "string" ? escape(value) : value;
-}
-function each(items, fn) {
-  let str = "";
-  for (let i = 0; i < items.length; i += 1) {
-    str += fn(items[i], i);
-  }
-  return str;
 }
 const missing_component = {
   $$render: () => ""
