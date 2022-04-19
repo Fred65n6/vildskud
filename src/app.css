@@ -22,13 +22,7 @@
 body {
 	min-height: 100vh;
 	margin: 0;
-	background-color: var(--primary-color);
-	background: linear-gradient(
-		180deg,
-		var(--primary-color) 0%,
-		var(--secondary-color) 10.45%,
-		var(--tertiary-color) 41.35%
-	);
+	background-color: gray;
 }
 
 body::before {
@@ -57,7 +51,7 @@ h1,
 h2,
 p {
 	font-weight: 400;
-	color: var(--heading-color);
+	color: white;
 }
 
 p {

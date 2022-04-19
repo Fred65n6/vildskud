@@ -10,12 +10,27 @@
 				<img src={logo} alt="SvelteKit" />
 			</a>
 		</div>
-		<ul>
-			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/om_os">Om os</a>
-			</li>
-		</ul>
+		<div class="desktop-menu">
+			<ul>
+				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+				<li class:active={$page.url.pathname === '/about'}>
+					<a sveltekit:prefetch href="/om_os">Om os</a>
+				</li>
+			</ul>
+		</div>
+		<div class="hamburger-menu">
+			<input id="menu__toggle" type="checkbox" />
+			<label class="menu__btn" for="menu__toggle">
+				<span />
+			</label>
+
+			<ul class="menu__box">
+				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+				<li class:active={$page.url.pathname === '/about'}>
+					<a sveltekit:prefetch href="/om_os">Om os</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 </header>
 
@@ -63,7 +78,7 @@
 		background-size: contain;
 	}
 
-	li {
+	.desktop-menu li {
 		position: relative;
 		height: 100%;
 	}
@@ -83,5 +98,97 @@
 
 	a:hover {
 		color: var(--accent-color);
+	}
+
+	.hamburger-menu li {
+		padding: 1rem;
+	}
+
+	#menu__toggle {
+		opacity: 0;
+	}
+
+	#menu__toggle:checked ~ .menu__btn > span {
+		transform: rotate(45deg);
+	}
+	#menu__toggle:checked ~ .menu__btn > span::before {
+		top: 0;
+		transform: rotate(0);
+	}
+	#menu__toggle:checked ~ .menu__btn > span::after {
+		top: 0;
+		transform: rotate(90deg);
+	}
+	#menu__toggle:checked ~ ul {
+		visibility: visible;
+		left: 0;
+	}
+
+	#menu__toggle:not(:checked) ~ ul {
+		visibility: hidden;
+		left: 0;
+	}
+
+	.menu__btn {
+		display: flex;
+		align-items: center;
+		position: fixed;
+		top: 10px;
+		right: 20px;
+
+		width: 26px;
+		height: 26px;
+
+		cursor: pointer;
+		z-index: 1;
+	}
+
+	.menu__btn > span,
+	.menu__btn > span::before,
+	.menu__btn > span::after {
+		display: block;
+		position: absolute;
+
+		width: 100%;
+		height: 2px;
+
+		background-color: #616161;
+		transition-duration: 0.25s;
+	}
+	.menu__btn > span::before {
+		content: '';
+		top: -8px;
+	}
+	.menu__btn > span::after {
+		content: '';
+		top: 8px;
+	}
+
+	.menu__box {
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		visibility: hidden;
+		top: 0;
+		left: -100%;
+		width: 300px;
+		height: 100%;
+
+		background-color: #eceff1;
+		box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+
+		transition-duration: 0.25s;
+	}
+
+	@media (max-width: 600px) {
+		.desktop-menu {
+			display: none;
+		}
+	}
+
+	@media (min-width: 600px) {
+		.hamburger-menu {
+			display: none;
+		}
 	}
 </style>
