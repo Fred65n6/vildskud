@@ -24,7 +24,7 @@ module.exports = __toCommonJS(stdin_exports);
 var import_index_3be38542 = require("../../chunks/index-3be38542.js");
 var index_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "section.svelte-mjk9ig{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}h1.svelte-mjk9ig{width:100%}",
+  code: "section.svelte-1bgohwt{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}h1.svelte-1bgohwt{width:100%}",
   map: null
 };
 const prerender = true;
@@ -32,6 +32,6 @@ const Routes = (0, import_index_3be38542.c)(($$result, $$props, $$bindings, slot
   $$result.css.add(css);
   return `${$$result.head += `${$$result.title = `<title>Home</title>`, ""}`, ""}
 
-<section class="${"svelte-mjk9ig"}"><h1 class="${"svelte-mjk9ig"}">Velkommen til Vildskud</h1>
+<section class="${"svelte-1bgohwt"}"><h1 class="${"svelte-1bgohwt"}">Velkommen til Vildskud</h1>
 </section>`;
 });
