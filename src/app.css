@@ -97,6 +97,10 @@ button:focus:not(:focus-visible) {
 	outline: none;
 }
 
+section {
+	padding-block: 2rem;
+}
+
 @media (min-width: 720px) {
 	h1 {
 		font-size: 2.4rem;
