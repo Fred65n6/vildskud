@@ -126,11 +126,6 @@
 		left: 0;
 	}
 
-	#menu__toggle:not(:checked) ~ .menu__box {
-		visibility: hidden;
-		left: 0;
-	}
-
 	.menu__btn {
 		display: flex;
 		align-items: center;
@@ -188,24 +183,6 @@
 		box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
 
 		transition-duration: 0.25s;
-	}
-
-	.menu__item {
-		display: block;
-		padding: 12px 24px;
-
-		color: #333;
-
-		font-family: 'Roboto', sans-serif;
-		font-size: 20px;
-		font-weight: 600;
-
-		text-decoration: none;
-
-		transition-duration: 0.25s;
-	}
-	.menu__item:hover {
-		background-color: #cfd8dc;
 	}
 
 	@media (max-width: 600px) {
