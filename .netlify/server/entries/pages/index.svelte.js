@@ -22,6 +22,7 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 var import_index_3be38542 = require("../../chunks/index-3be38542.js");
+var import_Header_d0125708 = require("../../chunks/Header-d0125708.js");
 var index_svelte_svelte_type_style_lang = "";
 const css = {
   code: "section.svelte-1bgohwt{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}h1.svelte-1bgohwt{width:100%}",
@@ -30,7 +31,9 @@ const css = {
 const prerender = true;
 const Routes = (0, import_index_3be38542.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `${$$result.head += `${$$result.title = `<title>Home</title>`, ""}`, ""}
+  return `${(0, import_index_3be38542.v)(import_Header_d0125708.H, "Header").$$render($$result, {}, {}, {})}
+
+${$$result.head += `${$$result.title = `<title>Home</title>`, ""}`, ""}
 
 <section class="${"svelte-1bgohwt"}"><h1 class="${"svelte-1bgohwt"}">Velkommen til Vildskud</h1>
 </section>`;

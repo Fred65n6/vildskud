@@ -24,20 +24,17 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 var import_index_3be38542 = require("../../chunks/index-3be38542.js");
+var import_Header_d0125708 = require("../../chunks/Header-d0125708.js");
 const browser = false;
 const dev = false;
-var om_os_svelte_svelte_type_style_lang = "";
-const css = {
-  code: ".content.svelte-cf77e8{width:100%;max-width:var(--column-width);margin:var(--column-margin-top) auto 0 auto}",
-  map: null
-};
 const hydrate = dev;
 const router = browser;
 const prerender = true;
 const Om_os = (0, import_index_3be38542.c)(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css);
-  return `${$$result.head += `${$$result.title = `<title>About</title>`, ""}`, ""}
+  return `${(0, import_index_3be38542.v)(import_Header_d0125708.H, "Header").$$render($$result, {}, {}, {})}
 
-<div class="${"content svelte-cf77e8"}"><h1>Om os</h1>
+${$$result.head += `${$$result.title = `<title>About</title>`, ""}`, ""}
+
+<div class="${"content"}"><h1>Om os</h1>
 </div>`;
 });
