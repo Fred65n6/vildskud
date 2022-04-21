@@ -1,15 +1,10 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
+	import logo from './nav_logo.svg';
 </script>
 
 <header>
 	<nav>
-		<div class="corner">
-			<a href="/">
-				<img src={logo} alt="SvelteKit" />
-			</a>
-		</div>
 		<div class="desktop-menu">
 			<ul>
 				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
@@ -35,33 +30,13 @@
 </header>
 
 <style>
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
-
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-		position: static;
-		z-index: 3;
-	}
-
 	nav {
 		width: 100%;
-		display: flex;
-		justify-content: space-between;
+		display: grid;
+		place-items: center;
 		background-color: white;
 		padding-inline: 2rem;
+		height: 3rem;
 	}
 	ul {
 		position: relative;

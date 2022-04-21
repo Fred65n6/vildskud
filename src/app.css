@@ -22,7 +22,7 @@
 body {
 	min-height: 100vh;
 	margin: 0;
-	background-color: gray;
+	background-color: rgb(111, 111, 181);
 }
 
 body::before {
@@ -98,7 +98,7 @@ button:focus:not(:focus-visible) {
 }
 
 section {
-	padding-block: 2rem;
+	padding-block: 4rem;
 }
 
 @media (min-width: 720px) {

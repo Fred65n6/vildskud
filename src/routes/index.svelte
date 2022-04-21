@@ -10,7 +10,7 @@
 </svelte:head>
 
 <section>
-	<h1>Velkommen til Vildskud</h1>
+	<img src="vildskud_logo.svg" alt="logo" />
 </section>
 
 <style>
@@ -20,9 +20,5 @@
 		justify-content: center;
 		align-items: center;
 		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
 	}
 </style>
