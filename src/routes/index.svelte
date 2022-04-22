@@ -39,7 +39,7 @@
 
 <style>
 	#hero {
-		background-image: url('hero_bg.svg');
+		background-image: url('../../static/hero_bg.svg');
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;

@@ -59,7 +59,10 @@
       "_Header-990198ac.js"
     ],
     "css": [
-      "assets/entries/pages/index.svelte-957e5d7c.css"
+      "assets/entries/pages/index.svelte-7431e45a.css"
+    ],
+    "assets": [
+      "assets/hero_bg-55dc6b21.svg"
     ]
   },
   "src/routes/om_os.svelte": {
