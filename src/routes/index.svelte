@@ -1,7 +1,6 @@
 <script context="module">
 	export const prerender = true;
 	import Header from '../lib/header/Header.svelte';
-	import Footer from './footer.svelte';
 </script>
 
 <svelte:head>
@@ -37,7 +36,6 @@
 		</div>
 	</div>
 </section>
-<Footer />
 
 <style>
 	#hero {

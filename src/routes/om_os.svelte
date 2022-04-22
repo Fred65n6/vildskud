@@ -13,7 +13,6 @@
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 	import Header from '../lib/header/Header.svelte';
-	import Footer from './footer.svelte';
 </script>
 
 <Header />
@@ -25,8 +24,6 @@
 <div class="content">
 	<h1>Om os</h1>
 </div>
-
-<Footer />
 
 <style>
 </style>
