@@ -1,0 +1,200 @@
+<script>
+	import { page } from '$app/stores';
+</script>
+
+<header>
+	<nav>
+		<div class="desktop-menu">
+			<ul>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Hjem</a>
+				</li>
+				<li class:active={$page.url.pathname === '/forestillinger'}>
+					<a sveltekit:prefetch href="/forestillinger">Forestillinger & events</a>
+				</li>
+				<li class:active={$page.url.pathname === '/oversigt'}>
+					<a sveltekit:prefetch href="/oversigt">Programoversigt</a>
+				</li>
+				<li class:active={$page.url.pathname === '/praktisk'}>
+					<a sveltekit:prefetch href="/praktisk">Praktisk info</a>
+				</li>
+				<li class:active={$page.url.pathname === '/vaer_med'}>
+					<a sveltekit:prefetch href="/vaer_med">Vær med</a>
+				</li>
+				<li class:active={$page.url.pathname === '/om_os'}>
+					<a sveltekit:prefetch href="/om_os">Om os</a>
+				</li>
+			</ul>
+		</div>
+		<div class="hamburger-menu">
+			<input id="menu__toggle" type="checkbox" />
+			<label class="menu__btn" for="menu__toggle">
+				<span />
+			</label>
+
+			<ul class="menu__box">
+				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Hjem</a></li>
+				<li class:active={$page.url.pathname === '/forestillinger'}>
+					<a sveltekit:prefetch href="/forestillinger">Forestillinger & events</a>
+				</li>
+				<li class:active={$page.url.pathname === '/oversigt'}>
+					<a sveltekit:prefetch href="/oversigt">Programoversigt</a>
+				</li>
+				<li class:active={$page.url.pathname === '/praktisk'}>
+					<a sveltekit:prefetch href="/praktisk">Praktisk info</a>
+				</li>
+				<li class:active={$page.url.pathname === '/vaer_med'}>
+					<a sveltekit:prefetch href="/vaer_med">Vær med</a>
+				</li>
+				<li class:active={$page.url.pathname === '/om_os'}>
+					<a sveltekit:prefetch href="/om_os">Om os</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+<style>
+	nav {
+		width: 100%;
+		display: grid;
+		place-items: center;
+
+		padding-inline: 2rem;
+		height: 3rem;
+	}
+	ul {
+		position: relative;
+		padding: 0;
+		margin: 0;
+		height: 3em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		list-style: none;
+		background-size: contain;
+	}
+
+	.desktop-menu li {
+		position: relative;
+		height: 100%;
+	}
+	nav a {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		padding: 0 2em;
+		color: black;
+		font-weight: 400;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		text-decoration: none;
+		transition: color 0.2s linear;
+	}
+
+	a:hover {
+		color: black;
+		text-decoration: underline;
+	}
+
+	.hamburger-menu li {
+		padding: 1rem;
+		color: black;
+	}
+
+	#menu__toggle {
+		opacity: 0;
+	}
+
+	#menu__toggle:checked ~ .menu__btn > span {
+		transform: rotate(45deg);
+	}
+	#menu__toggle:checked ~ .menu__btn > span::before {
+		top: 0;
+		transform: rotate(0);
+	}
+	#menu__toggle:checked ~ .menu__btn > span::after {
+		top: 0;
+		transform: rotate(90deg);
+	}
+	#menu__toggle:checked ~ .menu__box {
+		visibility: visible;
+		right: 0;
+	}
+
+	.menu__btn {
+		display: flex;
+		align-items: center;
+		position: fixed;
+		top: 10px;
+		right: 20px;
+
+		width: 26px;
+		height: 26px;
+
+		cursor: pointer;
+		z-index: 1;
+	}
+
+	.menu__btn > span,
+	.menu__btn > span::before,
+	.menu__btn > span::after {
+		display: block;
+		position: absolute;
+
+		width: 100%;
+		height: 2.5px;
+		border-radius: 12px;
+
+		background-color: #1c1c1c;
+
+		transition-duration: 0.25s;
+	}
+	.menu__btn > span::before {
+		content: '';
+		top: -8px;
+	}
+	.menu__btn > span::after {
+		content: '';
+		top: 8px;
+	}
+
+	.menu__box {
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		visibility: hidden;
+		top: 0;
+		right: -100%;
+
+		width: 100%;
+		height: 100%;
+
+		margin: 0;
+		padding: 80px 0;
+
+		list-style: none;
+
+		background-color: #8072a8;
+		box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+
+		transition-duration: 0.25s;
+	}
+
+	@media (max-width: 600px) {
+		.desktop-menu {
+			display: none;
+		}
+
+		a:hover {
+			color: #b12222;
+		}
+	}
+
+	@media (min-width: 600px) {
+		.hamburger-menu {
+			display: none;
+		}
+	}
+</style>

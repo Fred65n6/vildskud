@@ -42,9 +42,9 @@
 
 <style>
 	footer {
+		margin-top: 4rem;
 		display: grid;
 		justify-items: center;
-
 		grid-template-columns: 1fr 1fr 1fr;
 		gap: 40px;
 		padding-block: 2rem;
