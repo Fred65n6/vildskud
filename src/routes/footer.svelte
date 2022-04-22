@@ -5,20 +5,20 @@
 		</div>
 		<div class="grid ">
 			<h2>Arkiver</h2>
-			<a href="*">Sæson 2019</a>
-			<a href="*">Sæson 2020</a>
+			<a href="/*">Sæson 2019</a>
+			<a href="/*">Sæson 2020</a>
 		</div>
 	</div>
 
 	<div class="container">
 		<div class="">
 			<h2>Kontakt</h2>
-			<p>Kontakt os <a class="underline" href="*">her</a></p>
+			<p>Kontakt os <a class="underline" href="/*">her</a></p>
 		</div>
 		<div class="grid  ">
 			<h2>Politker</h2>
-			<a href="*">Privatlivspolitik</a>
-			<a href="*">Cookiepolitik</a>
+			<a href="/*">Privatlivspolitik</a>
+			<a href="/*">Cookiepolitik</a>
 		</div>
 	</div>
 
@@ -64,10 +64,6 @@
 		.container {
 			display: flex;
 			gap: 50px;
-		}
-
-		.social {
-			display: none;
 		}
 	}
 </style>

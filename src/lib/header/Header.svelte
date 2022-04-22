@@ -1,24 +1,25 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from './nav_logo.svg';
 </script>
 
 <header>
 	<nav>
 		<div class="desktop-menu">
 			<ul>
-				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Hjem</a></li>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Hjem</a>
+				</li>
 				<li class:active={$page.url.pathname === '/forestillinger'}>
-					<a sveltekit:prefetch href="/">Forestillinger & events</a>
+					<a sveltekit:prefetch href="/forestillinger">Forestillinger & events</a>
 				</li>
 				<li class:active={$page.url.pathname === '/oversigt'}>
-					<a sveltekit:prefetch href="/">Programoversigt</a>
+					<a sveltekit:prefetch href="/oversigt">Programoversigt</a>
 				</li>
 				<li class:active={$page.url.pathname === '/praktisk'}>
-					<a sveltekit:prefetch href="/">Praktisk info</a>
+					<a sveltekit:prefetch href="/praktisk">Praktisk info</a>
 				</li>
 				<li class:active={$page.url.pathname === '/vaer_med'}>
-					<a sveltekit:prefetch href="/">Vær med</a>
+					<a sveltekit:prefetch href="/vaer_med">Vær med</a>
 				</li>
 				<li class:active={$page.url.pathname === '/om_os'}>
 					<a sveltekit:prefetch href="/om_os">Om os</a>
@@ -34,16 +35,16 @@
 			<ul class="menu__box">
 				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Hjem</a></li>
 				<li class:active={$page.url.pathname === '/forestillinger'}>
-					<a sveltekit:prefetch href="/">Forestillinger & events</a>
+					<a sveltekit:prefetch href="/forestillinger">Forestillinger & events</a>
 				</li>
 				<li class:active={$page.url.pathname === '/oversigt'}>
-					<a sveltekit:prefetch href="/">Programoversigt</a>
+					<a sveltekit:prefetch href="/oversigt">Programoversigt</a>
 				</li>
 				<li class:active={$page.url.pathname === '/praktisk'}>
-					<a sveltekit:prefetch href="/">Praktisk info</a>
+					<a sveltekit:prefetch href="/praktisk">Praktisk info</a>
 				</li>
 				<li class:active={$page.url.pathname === '/vaer_med'}>
-					<a sveltekit:prefetch href="/">Vær med</a>
+					<a sveltekit:prefetch href="/vaer_med">Vær med</a>
 				</li>
 				<li class:active={$page.url.pathname === '/om_os'}>
 					<a sveltekit:prefetch href="/om_os">Om os</a>

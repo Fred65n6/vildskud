@@ -1,6 +1,6 @@
 <script context="module">
 	export const prerender = true;
-	import Header from '$lib/header/Header.svelte';
+	import Header from '../lib/header/Header.svelte';
 	import Footer from './footer.svelte';
 </script>
 
@@ -13,8 +13,8 @@
 		<Header />
 		<img src="hero_logo.svg" alt="logo" />
 		<div class="knapper">
-			<button><a sveltekit:prefetch href="/forestillinger">Forestillinger & events →</a></button>
-			<button><a sveltekit:prefetch href="/forestillinger">Billetter →</a></button>
+			<button><a sveltekit:prefetch href="forestillinger">Forestillinger & events →</a></button>
+			<button><a sveltekit:prefetch href="forestillinger">Billetter →</a></button>
 		</div>
 		<p class="text-center text-white">2. - 3. - 4. - 5. - 6. <br />AUGUST 2020</p>
 	</div>
@@ -33,7 +33,7 @@
 				sapiente voluptatibus, iste culpa voluptatum est iure dolores odit enim, earum
 				exercitationem! Pariatur, veniam quos.
 			</p>
-			<button><a sveltekit:prefetch href="/forestillinger">Billetter →</a></button>
+			<button><a sveltekit:prefetch href="forestillinger">Billetter →</a></button>
 		</div>
 	</div>
 </section>
