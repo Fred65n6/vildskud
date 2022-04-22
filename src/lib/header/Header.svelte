@@ -7,8 +7,20 @@
 	<nav>
 		<div class="desktop-menu">
 			<ul>
-				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-				<li class:active={$page.url.pathname === '/about'}>
+				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Hjem</a></li>
+				<li class:active={$page.url.pathname === '/forestillinger'}>
+					<a sveltekit:prefetch href="/">Forestillinger & events</a>
+				</li>
+				<li class:active={$page.url.pathname === '/oversigt'}>
+					<a sveltekit:prefetch href="/">Programoversigt</a>
+				</li>
+				<li class:active={$page.url.pathname === '/praktisk'}>
+					<a sveltekit:prefetch href="/">Praktisk info</a>
+				</li>
+				<li class:active={$page.url.pathname === '/vaer_med'}>
+					<a sveltekit:prefetch href="/">Vær med</a>
+				</li>
+				<li class:active={$page.url.pathname === '/om_os'}>
 					<a sveltekit:prefetch href="/om_os">Om os</a>
 				</li>
 			</ul>
@@ -20,8 +32,20 @@
 			</label>
 
 			<ul class="menu__box">
-				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-				<li class:active={$page.url.pathname === '/about'}>
+				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Hjem</a></li>
+				<li class:active={$page.url.pathname === '/forestillinger'}>
+					<a sveltekit:prefetch href="/">Forestillinger & events</a>
+				</li>
+				<li class:active={$page.url.pathname === '/oversigt'}>
+					<a sveltekit:prefetch href="/">Programoversigt</a>
+				</li>
+				<li class:active={$page.url.pathname === '/praktisk'}>
+					<a sveltekit:prefetch href="/">Praktisk info</a>
+				</li>
+				<li class:active={$page.url.pathname === '/vaer_med'}>
+					<a sveltekit:prefetch href="/">Vær med</a>
+				</li>
+				<li class:active={$page.url.pathname === '/om_os'}>
 					<a sveltekit:prefetch href="/om_os">Om os</a>
 				</li>
 			</ul>
@@ -34,7 +58,7 @@
 		width: 100%;
 		display: grid;
 		place-items: center;
-		background-color: white;
+
 		padding-inline: 2rem;
 		height: 3rem;
 	}
@@ -58,9 +82,9 @@
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 1em;
-		color: var(--heading-color);
-		font-weight: 700;
+		padding: 0 2em;
+		color: white;
+		font-weight: 400;
 		font-size: 0.8rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
@@ -69,11 +93,12 @@
 	}
 
 	a:hover {
-		color: var(--accent-color);
+		color: black;
 	}
 
 	.hamburger-menu li {
 		padding: 1rem;
+		color: black;
 	}
 
 	#menu__toggle {
@@ -99,7 +124,7 @@
 	.menu__btn {
 		display: flex;
 		align-items: center;
-		position: absolute;
+		position: fixed;
 		top: 10px;
 		right: 20px;
 
@@ -149,7 +174,7 @@
 
 		list-style: none;
 
-		background-color: white;
+		background-color: #8072a8;
 		box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
 
 		transition-duration: 0.25s;
@@ -158,6 +183,10 @@
 	@media (max-width: 600px) {
 		.desktop-menu {
 			display: none;
+		}
+
+		a:hover {
+			color: #b12222;
 		}
 	}
 
