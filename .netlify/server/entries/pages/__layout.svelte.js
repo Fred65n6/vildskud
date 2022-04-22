@@ -20,17 +20,9 @@ __export(stdin_exports, {
   default: () => _layout
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_3be38542 = require("../../chunks/index-3be38542.js");
+var import_index_8f0b34dd = require("../../chunks/index-8f0b34dd.js");
 var app = "";
-var __layout_svelte_svelte_type_style_lang = "";
-const css = {
-  code: "footer.svelte-14ep2f2{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:40px}@media(min-width: 480px){footer.svelte-14ep2f2{padding:40px 0}}",
-  map: null
-};
-const _layout = (0, import_index_3be38542.c)(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css);
-  return `<main>${slots.default ? slots.default({}) : ``}</main>
-
-<footer class="${"svelte-14ep2f2"}"><p>Footer</p>
-</footer>`;
+const _layout = (0, import_index_8f0b34dd.c)(($$result, $$props, $$bindings, slots) => {
+  return `<main>${slots.default ? slots.default({}) : ``}
+</main>`;
 });

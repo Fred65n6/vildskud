@@ -25,15 +25,20 @@ __export(stdin_exports, {
 module.exports = __toCommonJS(stdin_exports);
 const manifest = {
   appDir: "_app",
-  assets: /* @__PURE__ */ new Set(["favicon.png", "robots.txt", "svelte-welcome.png", "svelte-welcome.webp"]),
-  mimeTypes: { ".png": "image/png", ".txt": "text/plain", ".webp": "image/webp" },
+  assets: /* @__PURE__ */ new Set(["Billede_JUKS.jpg", "billetter.svg", "favicon.png", "footer_logo.svg", "hero_bg.svg", "hero_logo.svg", "mona-lisa-natten.jpg", "panta-reje.jpg", "robots.txt", "skammer_du_dig_nu.jpg", "social_icons.svg", "svelte-welcome.png", "svelte-welcome.webp", "teater-tunge-tasker.jpg", "vildskud_logo.svg", "wish.jpg"]),
+  mimeTypes: { ".jpg": "image/jpeg", ".svg": "image/svg+xml", ".png": "image/png", ".txt": "text/plain", ".webp": "image/webp" },
   _: {
-    entry: { "file": "start-55d14320.js", "js": ["start-55d14320.js", "chunks/index-6430e7d6.js"], "css": [] },
+    entry: { "file": "start-3ad13109.js", "js": ["start-3ad13109.js", "chunks/index-f6c6bd2d.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/4.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/2.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/3.js")))
+      () => Promise.resolve().then(() => __toESM(require("./nodes/3.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/5.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/6.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/7.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/8.js")))
     ],
     routes: [
       {
@@ -49,13 +54,68 @@ const manifest = {
       },
       {
         type: "page",
+        id: "footer",
+        pattern: /^\/footer\/?$/,
+        names: [],
+        types: [],
+        path: "/footer",
+        shadow: null,
+        a: [0, 3],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "forestillinger",
+        pattern: /^\/forestillinger\/?$/,
+        names: [],
+        types: [],
+        path: "/forestillinger",
+        shadow: null,
+        a: [0, 4],
+        b: [1]
+      },
+      {
+        type: "page",
         id: "om_os",
         pattern: /^\/om_os\/?$/,
         names: [],
         types: [],
         path: "/om_os",
         shadow: null,
-        a: [0, 3],
+        a: [0, 5],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "oversigt",
+        pattern: /^\/oversigt\/?$/,
+        names: [],
+        types: [],
+        path: "/oversigt",
+        shadow: null,
+        a: [0, 6],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "praktisk",
+        pattern: /^\/praktisk\/?$/,
+        names: [],
+        types: [],
+        path: "/praktisk",
+        shadow: null,
+        a: [0, 7],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "vaer_med",
+        pattern: /^\/vaer_med\/?$/,
+        names: [],
+        types: [],
+        path: "/vaer_med",
+        shadow: null,
+        a: [0, 8],
         b: [1]
       }
     ],

@@ -4,7 +4,7 @@
     "src": ".svelte-kit/build/index.js",
     "isEntry": true,
     "imports": [
-      "_index-3be38542.js"
+      "_index-8f0b34dd.js"
     ],
     "dynamicImports": [
       "src/hooks.js"
@@ -15,20 +15,10 @@
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-3be38542.js"
+      "_index-8f0b34dd.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-f269ee3c.css",
-      "assets/Header.svelte_svelte_type_style_lang-36a1485b.css"
-    ],
-    "assets": [
-      "assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
-      "assets/fira-mono-all-400-normal-1e3b098c.woff",
-      "assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
-      "assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
-      "assets/fira-mono-greek-400-normal-a8be01ce.woff2",
-      "assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
-      "assets/fira-mono-latin-400-normal-e43b3538.woff2"
+      "assets/entries/pages/__layout.svelte-c0fe7830.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -36,7 +26,28 @@
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-3be38542.js"
+      "_index-8f0b34dd.js"
+    ]
+  },
+  "src/routes/footer.svelte": {
+    "file": "entries/pages/footer.svelte.js",
+    "src": "src/routes/footer.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js"
+    ],
+    "css": [
+      "assets/entries/pages/footer.svelte-3c66d66b.css"
+    ]
+  },
+  "src/routes/forestillinger.svelte": {
+    "file": "entries/pages/forestillinger.svelte.js",
+    "src": "src/routes/forestillinger.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_Header-990198ac.js",
+      "_env-14926626.js"
     ]
   },
   "src/routes/index.svelte": {
@@ -44,12 +55,11 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-3be38542.js",
-      "_Header-d0125708.js"
+      "_index-8f0b34dd.js",
+      "_Header-990198ac.js"
     ],
     "css": [
-      "assets/entries/pages/index.svelte-1cebc8f7.css",
-      "assets/Header.svelte_svelte_type_style_lang-36a1485b.css"
+      "assets/entries/pages/index.svelte-957e5d7c.css"
     ]
   },
   "src/routes/om_os.svelte": {
@@ -57,27 +67,55 @@
     "src": "src/routes/om_os.svelte",
     "isEntry": true,
     "imports": [
-      "_index-3be38542.js",
-      "_Header-d0125708.js"
-    ],
-    "css": [
-      "assets/Header.svelte_svelte_type_style_lang-36a1485b.css"
+      "_index-8f0b34dd.js",
+      "_Header-990198ac.js",
+      "_env-14926626.js"
     ]
   },
-  "_index-3be38542.js": {
-    "file": "chunks/index-3be38542.js"
-  },
-  "_Header-d0125708.js": {
-    "file": "chunks/Header-d0125708.js",
+  "src/routes/oversigt.svelte": {
+    "file": "entries/pages/oversigt.svelte.js",
+    "src": "src/routes/oversigt.svelte",
+    "isEntry": true,
     "imports": [
-      "_index-3be38542.js"
+      "_index-8f0b34dd.js",
+      "_Header-990198ac.js",
+      "_env-14926626.js"
+    ]
+  },
+  "src/routes/praktisk.svelte": {
+    "file": "entries/pages/praktisk.svelte.js",
+    "src": "src/routes/praktisk.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_Header-990198ac.js",
+      "_env-14926626.js"
+    ]
+  },
+  "src/routes/vaer_med.svelte": {
+    "file": "entries/pages/vaer_med.svelte.js",
+    "src": "src/routes/vaer_med.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_Header-990198ac.js",
+      "_env-14926626.js"
+    ]
+  },
+  "_index-8f0b34dd.js": {
+    "file": "chunks/index-8f0b34dd.js"
+  },
+  "_Header-990198ac.js": {
+    "file": "chunks/Header-990198ac.js",
+    "imports": [
+      "_index-8f0b34dd.js"
     ],
     "css": [
-      "assets/Header.svelte_svelte_type_style_lang-36a1485b.css"
-    ],
-    "assets": [
-      "assets/svelte-logo-87df40b8.svg"
+      "assets/Header-3ab32b6f.css"
     ]
+  },
+  "_env-14926626.js": {
+    "file": "chunks/env-14926626.js"
   },
   "src/hooks.js": {
     "file": "chunks/hooks-f58f4afa.js",

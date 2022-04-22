@@ -23,15 +23,14 @@ __export(stdin_exports, {
   router: () => router
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_3be38542 = require("../../chunks/index-3be38542.js");
-var import_Header_d0125708 = require("../../chunks/Header-d0125708.js");
-const browser = false;
-const dev = false;
-const hydrate = dev;
-const router = browser;
+var import_index_8f0b34dd = require("../../chunks/index-8f0b34dd.js");
+var import_Header_990198ac = require("../../chunks/Header-990198ac.js");
+var import_env_14926626 = require("../../chunks/env-14926626.js");
+const hydrate = import_env_14926626.d;
+const router = import_env_14926626.b;
 const prerender = true;
-const Om_os = (0, import_index_3be38542.c)(($$result, $$props, $$bindings, slots) => {
-  return `${(0, import_index_3be38542.v)(import_Header_d0125708.H, "Header").$$render($$result, {}, {}, {})}
+const Om_os = (0, import_index_8f0b34dd.c)(($$result, $$props, $$bindings, slots) => {
+  return `${(0, import_index_8f0b34dd.v)(import_Header_990198ac.H, "Header").$$render($$result, {}, {}, {})}
 
 ${$$result.head += `${$$result.title = `<title>About</title>`, ""}`, ""}
 

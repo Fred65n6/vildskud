@@ -1,8 +1,6 @@
-var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
-var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __export = (target, all) => {
   for (var name in all)
@@ -16,17 +14,12 @@ var __copyProps = (to, from, except, desc) => {
   }
   return to;
 };
-var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  css: () => css,
-  entry: () => entry,
-  js: () => js,
-  module: () => module2
+  b: () => browser,
+  d: () => dev
 });
 module.exports = __toCommonJS(stdin_exports);
-var module2 = __toESM(require("../entries/pages/__layout.svelte.js"));
-const entry = "pages/__layout.svelte-ea4c1701.js";
-const js = ["pages/__layout.svelte-ea4c1701.js", "chunks/index-f6c6bd2d.js"];
-const css = ["assets/pages/__layout.svelte-b9d6dba5.css"];
+const browser = false;
+const dev = false;

@@ -2,16 +2,27 @@ const { init } = require('../handler.js');
 
 exports.handler = init({
 	appDir: "_app",
-	assets: new Set(["favicon.png","robots.txt","svelte-welcome.png","svelte-welcome.webp"]),
-	mimeTypes: {".png":"image/png",".txt":"text/plain",".webp":"image/webp"},
+	assets: new Set(["Billede_JUKS.jpg","billetter.svg","favicon.png","footer_logo.svg","hero_bg.svg","hero_logo.svg","mona-lisa-natten.jpg","panta-reje.jpg","robots.txt","skammer_du_dig_nu.jpg","social_icons.svg","svelte-welcome.png","svelte-welcome.webp","teater-tunge-tasker.jpg","vildskud_logo.svg","wish.jpg"]),
+	mimeTypes: {".jpg":"image/jpeg",".svg":"image/svg+xml",".png":"image/png",".txt":"text/plain",".webp":"image/webp"},
 	_: {
-		entry: {"file":"start-55d14320.js","js":["start-55d14320.js","chunks/index-6430e7d6.js"],"css":[]},
+		entry: {"file":"start-3ad13109.js","js":["start-3ad13109.js","chunks/index-f6c6bd2d.js"],"css":[]},
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
-			() => Promise.resolve().then(() => require('../server/nodes/1.js'))
+			() => Promise.resolve().then(() => require('../server/nodes/1.js')),
+			() => Promise.resolve().then(() => require('../server/nodes/2.js'))
 		],
 		routes: [
-			
+			{
+				type: 'page',
+				id: "footer",
+				pattern: /^\/footer\/?$/,
+				names: [],
+				types: [],
+				path: "/footer",
+				shadow: null,
+				a: [0,2],
+				b: [1]
+			}
 		],
 		matchers: async () => {
 			

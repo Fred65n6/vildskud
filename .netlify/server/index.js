@@ -53,7 +53,7 @@ __export(stdin_exports, {
   override: () => override
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_3be38542 = require("./chunks/index-3be38542.js");
+var import_index_8f0b34dd = require("./chunks/index-8f0b34dd.js");
 var __accessCheck = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -75,14 +75,14 @@ var __privateSet = (obj, member, value, setter) => {
 var _use_hashes, _dev, _script_needs_csp, _style_needs_csp, _directives, _script_src, _style_src;
 function afterUpdate() {
 }
-const Root = (0, import_index_3be38542.c)(($$result, $$props, $$bindings, slots) => {
+const Root = (0, import_index_8f0b34dd.c)(($$result, $$props, $$bindings, slots) => {
   let { stores } = $$props;
   let { page } = $$props;
   let { components } = $$props;
   let { props_0 = null } = $$props;
   let { props_1 = null } = $$props;
   let { props_2 = null } = $$props;
-  (0, import_index_3be38542.s)("__svelte__", stores);
+  (0, import_index_8f0b34dd.s)("__svelte__", stores);
   afterUpdate(stores.page.notify);
   if ($$props.stores === void 0 && $$bindings.stores && stores !== void 0)
     $$bindings.stores(stores);
@@ -102,15 +102,15 @@ const Root = (0, import_index_3be38542.c)(($$result, $$props, $$bindings, slots)
   return `
 
 
-${components[1] ? `${(0, import_index_3be38542.v)(components[0] || import_index_3be38542.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {
+${components[1] ? `${(0, import_index_8f0b34dd.v)(components[0] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {
     default: () => {
-      return `${components[2] ? `${(0, import_index_3be38542.v)(components[1] || import_index_3be38542.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {
+      return `${components[2] ? `${(0, import_index_8f0b34dd.v)(components[1] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {
         default: () => {
-          return `${(0, import_index_3be38542.v)(components[2] || import_index_3be38542.m, "svelte:component").$$render($$result, Object.assign(props_2 || {}), {}, {})}`;
+          return `${(0, import_index_8f0b34dd.v)(components[2] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_2 || {}), {}, {})}`;
         }
-      })}` : `${(0, import_index_3be38542.v)(components[1] || import_index_3be38542.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {})}`}`;
+      })}` : `${(0, import_index_8f0b34dd.v)(components[1] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {})}`}`;
     }
-  })}` : `${(0, import_index_3be38542.v)(components[0] || import_index_3be38542.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {})}`}
+  })}` : `${(0, import_index_8f0b34dd.v)(components[0] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {})}`}
 
 ${``}`;
 });
@@ -2314,7 +2314,7 @@ function set_paths(paths) {
 }
 function set_prerendering(value) {
 }
-const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<meta name="description" content="Svelte demo app" />\r\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\r\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n\r\n		' + head + "\r\n	</head>\r\n	<body>\r\n		<div>" + body + "</div>\r\n	</body>\r\n</html>\r\n";
+const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<meta name="description" content="Svelte demo app" />\r\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\r\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n		' + head + "\r\n	</head>\r\n	<body>\r\n		<div>" + body + "</div>\r\n	</body>\r\n</html>\r\n";
 let read = null;
 set_paths({ "base": "", "assets": "" });
 let default_protocol = "https";
