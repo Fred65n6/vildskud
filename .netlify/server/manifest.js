@@ -28,17 +28,16 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["Billede_JUKS.jpg", "billetter.svg", "favicon.png", "footer_logo.svg", "hero_bg.svg", "hero_logo.svg", "mona-lisa-natten.jpg", "panta-reje.jpg", "robots.txt", "skammer_du_dig_nu.jpg", "social_icons.svg", "svelte-welcome.png", "svelte-welcome.webp", "teater-tunge-tasker.jpg", "vildskud_logo.svg", "wish.jpg"]),
   mimeTypes: { ".jpg": "image/jpeg", ".svg": "image/svg+xml", ".png": "image/png", ".txt": "text/plain", ".webp": "image/webp" },
   _: {
-    entry: { "file": "start-9eae3311.js", "js": ["start-9eae3311.js", "chunks/index-f6c6bd2d.js"], "css": [] },
+    entry: { "file": "start-1e38b51a.js", "js": ["start-1e38b51a.js", "chunks/index-d0107eae.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/4.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/2.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/3.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/2.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/4.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/5.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/6.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/7.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/8.js")))
+      () => Promise.resolve().then(() => __toESM(require("./nodes/7.js")))
     ],
     routes: [
       {
@@ -54,24 +53,13 @@ const manifest = {
       },
       {
         type: "page",
-        id: "footer",
-        pattern: /^\/footer\/?$/,
-        names: [],
-        types: [],
-        path: "/footer",
-        shadow: null,
-        a: [0, 3],
-        b: [1]
-      },
-      {
-        type: "page",
         id: "forestillinger",
         pattern: /^\/forestillinger\/?$/,
         names: [],
         types: [],
         path: "/forestillinger",
         shadow: null,
-        a: [0, 4],
+        a: [0, 3],
         b: [1]
       },
       {
@@ -82,7 +70,7 @@ const manifest = {
         types: [],
         path: "/om_os",
         shadow: null,
-        a: [0, 5],
+        a: [0, 4],
         b: [1]
       },
       {
@@ -93,7 +81,7 @@ const manifest = {
         types: [],
         path: "/oversigt",
         shadow: null,
-        a: [0, 6],
+        a: [0, 5],
         b: [1]
       },
       {
@@ -104,7 +92,7 @@ const manifest = {
         types: [],
         path: "/praktisk",
         shadow: null,
-        a: [0, 7],
+        a: [0, 6],
         b: [1]
       },
       {
@@ -115,7 +103,7 @@ const manifest = {
         types: [],
         path: "/vaer_med",
         shadow: null,
-        a: [0, 8],
+        a: [0, 7],
         b: [1]
       }
     ],

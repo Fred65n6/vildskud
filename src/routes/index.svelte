@@ -1,6 +1,7 @@
 <script context="module">
 	export const prerender = true;
 	import Header from '../lib/header/Header.svelte';
+	import Footer from '../lib/footer.svelte';
 </script>
 
 <svelte:head>
@@ -37,9 +38,12 @@
 	</div>
 </section>
 
+<Footer />
+
 <style>
 	#hero {
 		background-image: url('../../static/hero_bg.svg');
+		/* background-image: url('hero_bg.svg'); */
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
