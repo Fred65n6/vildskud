@@ -12,7 +12,7 @@
 	// since there's no dynamic data here, we can prerender
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
-	import Header from '../lib/header/Header.svelte';
+	import Header from '../lib/header/Header_2.svelte';
 </script>
 
 <Header />
@@ -22,7 +22,7 @@
 </svelte:head>
 
 <div class="content">
-	<h1>Om os</h1>
+	<h1>Vær med</h1>
 </div>
 
 <style>
