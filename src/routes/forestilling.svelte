@@ -44,7 +44,7 @@
 		</div>
 
 		<div class="stk_1">
-			<img src="skammer_du_dig_nu.webp" alt="skammer du dig" />
+			<img src="ansigtsskitser.svg" alt="skammer du dig" />
 			<button>Køb billlet →</button>
 		</div>
 	</div>
@@ -119,8 +119,7 @@
 	}
 
 	img {
-		width: 50%;
-		padding: 0.5rem;
+		width: 60%;
 	}
 
 	button {
@@ -135,7 +134,7 @@
 	.stk_1 {
 		display: grid;
 		place-items: center;
-		background-image: url('../../static/klat_4.svg');
+		background-image: url('klat_4.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
 	}

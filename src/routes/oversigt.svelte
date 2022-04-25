@@ -22,8 +22,13 @@
 	<title>About</title>
 </svelte:head>
 
-<section><h1>Programoversigt</h1></section>
 <section>
+	<h1 class="sticky z-50">Programoversigt</h1>
+	<img class="absolute z-10 left-44 top-[80%] opacity-80 " src="klat_1.svg" alt="" />
+	<img class="absolute right-[35%] top-[25%] z-10 opacity-80" src="klat_4.svg" alt="" />
+	<img class="absolute right-40 top-[98%] z-10 opacity-80" src="klat_2.svg" alt="" />
+</section>
+<section class="container">
 	<div class="left">
 		<h2 class="font-bold">2/8</h2>
 
@@ -52,7 +57,7 @@
 	</div>
 </section>
 
-<section class="md:grid md:grid-cols-2">
+<section class="md:grid md:grid-cols-2 container">
 	<div class="left">
 		<h2 class="font-bold">3/8</h2>
 
@@ -108,7 +113,7 @@
 	</div>
 </section>
 
-<section class="grid md:grid-cols-2">
+<section class="grid md:grid-cols-2 container">
 	<div class="left">
 		<h2 class="font-bold">5/8</h2>
 
@@ -180,6 +185,11 @@
 	section {
 		display: grid;
 		place-items: center;
+	}
+
+	.container {
+		position: static;
+		z-index: 50;
 	}
 
 	@media (min-width: 600px) {

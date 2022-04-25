@@ -21,9 +21,9 @@
 	<title>About</title>
 </svelte:head>
 
-<div class="content">
+<section>
 	<h1>Praktisk info</h1>
-</div>
+</section>
 
 <style>
 </style>
