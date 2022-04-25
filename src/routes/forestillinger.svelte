@@ -104,7 +104,7 @@
 		width: 20rem;
 		height: 20rem;
 		text-align: center;
-		background-image: url('klat_1.svg');
+		background-image: url('../../static/klat_1.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding-top: 5rem;
@@ -114,7 +114,7 @@
 		width: 20rem;
 		height: 20rem;
 		text-align: center;
-		background-image: url('klat_2.svg');
+		background-image: url('../../static/klat_2.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding-top: 5rem;
@@ -123,7 +123,7 @@
 		width: 20rem;
 		height: 20rem;
 		text-align: center;
-		background-image: url('klat_3.svg');
+		background-image: url('../../static/klat_3.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding-top: 5rem;
@@ -133,7 +133,7 @@
 		width: 20rem;
 		height: 20rem;
 		text-align: center;
-		background-image: url('klat_4.svg');
+		background-image: url('../../static/klat_4.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding-top: 5rem;
@@ -142,7 +142,7 @@
 		width: 20rem;
 		height: 20rem;
 		text-align: center;
-		background-image: url('klat_5.svg');
+		background-image: url('../../static/klat_5.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding-top: 5rem;
@@ -151,7 +151,7 @@
 		width: 20rem;
 		height: 20rem;
 		text-align: center;
-		background-image: url('klat_6.svg');
+		background-image: url('../../static/klat_6.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding-top: 5rem;
@@ -160,7 +160,7 @@
 		width: 20rem;
 		height: 20rem;
 		text-align: center;
-		background-image: url('klat_7.svg');
+		background-image: url('../../static/klat_7.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding-top: 5rem;
