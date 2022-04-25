@@ -44,11 +44,12 @@
 	p {
 		font-weight: 400;
 		color: black;
+		text-shadow: 1px 0.5px 5px white;
 	}
 
 	p {
-		font-size: 1.1rem;
-		line-height: 1.5;
+		font-size: 1.2rem;
+		line-height: 1.7;
 	}
 
 	a {
@@ -74,6 +75,12 @@
 		font-size: 1.5rem;
 		text-transform: uppercase;
 		font-weight: 100;
+		text-shadow: 1px 1px 2px white;
+	}
+
+	table {
+		text-shadow: 0.5px 0.5px 1px white;
+		font-size: 1.1rem;
 	}
 
 	section {
