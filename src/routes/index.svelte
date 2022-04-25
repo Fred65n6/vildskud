@@ -11,10 +11,10 @@
 <div id="hero">
 	<div class="container">
 		<Header />
-		<img src="hero_logo.svg" alt="logo" />
+		<img src="hero_logo_2.svg" alt="logo" />
 		<div class="knapper">
 			<button><a sveltekit:prefetch href="forestillinger">Forestillinger & events →</a></button>
-			<button><a sveltekit:prefetch href="forestillinger">Billetter →</a></button>
+			<button><a sveltekit:prefetch href="billetter">Billetter →</a></button>
 		</div>
 		<p class="text-center text-white">2. - 3. - 4. - 5. - 6. <br />AUGUST 2020</p>
 	</div>
@@ -28,12 +28,11 @@
 		</div>
 		<div class="grid place-items-center gap-16 px-12">
 			<p>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ut perspiciatis veritatis
-				aliquid. Repellat quisquam ex commodi itaque expedita? Quod at, in totam facilis nesciunt
-				sapiente voluptatibus, iste culpa voluptatum est iure dolores odit enim, earum
-				exercitationem! Pariatur, veniam quos.
+				Vildskud er Københavns festival for uafhængig scenekunst. Vær med, se med. Vildskud er for
+				alle der er interesserede i at dyrke og støtte spirende og uafhængige scenekunstnere.
+				Vildskud er Københavns festival for uafhængig scenekunst.
 			</p>
-			<button><a sveltekit:prefetch href="forestillinger">Billetter →</a></button>
+			<button><a sveltekit:prefetch href="billetter">Billetter →</a></button>
 		</div>
 	</div>
 </section>
@@ -42,7 +41,7 @@
 
 <style>
 	#hero {
-		background-image: url('../../static/hero_bg.svg');
+		background-image: url('hero_bg_2.svg');
 		/* background-image: url('hero_bg.svg'); */
 		width: 100%;
 		background-repeat: no-repeat;
@@ -60,8 +59,8 @@
 	}
 
 	img {
-		width: 25rem;
-		margin-block: 5.5rem;
+		width: 17rem;
+		margin-block: 9rem;
 	}
 
 	.knapper {
@@ -90,7 +89,8 @@
 
 	@media (min-width: 650px) {
 		img {
-			margin-block: 7.4rem;
+			width: 25rem;
+			margin-block: 7.5rem;
 		}
 		.knapper {
 			display: flex;
