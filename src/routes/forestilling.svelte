@@ -134,7 +134,7 @@
 	.stk_1 {
 		display: grid;
 		place-items: center;
-		background-image: url('klat_4.svg');
+		background-image: url('../../static/klat_4.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
 	}
