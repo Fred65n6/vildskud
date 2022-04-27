@@ -23,9 +23,9 @@
 </svelte:head>
 <section>
 	<h1>Bliv Frivillig</h1>
-	<img class="absolute z-10 left-44 top-2/4 " src="klat_5.svg" alt="" />
-	<img class="absolute right-44 top-20 z-10 " src="klat_6.svg" alt="" />
-	<img class="absolute right-40 top-3/4 z-10" src="klat_4.svg" alt="" />
+	<img class="absolute z-10 left-44 md:top-2/4 top-[180%] opacity-30" src="klat_5.svg" alt="" />
+	<img class="absolute right-44 md:top-20 z-10 opacity-30" src="klat_6.svg" alt="" />
+	<img class="absolute right-40 md:top-3/4 top-[120%] z-10 opacity-30" src="klat_4.svg" alt="" />
 </section>
 <section>
 	<div class="container">
@@ -72,9 +72,15 @@
 <style>
 	.container {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 		gap: 50px;
 		position: static;
 		z-index: 50;
+	}
+
+	@media (min-width: 650px) {
+		.container {
+			grid-template-columns: 1fr 1fr;
+		}
 	}
 </style>

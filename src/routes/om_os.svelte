@@ -24,9 +24,9 @@
 </svelte:head>
 
 <section><h1>Festival for uafhængig scenekunst</h1></section>
-<img class="absolute top-3/4 z-10 " src="klat_1.svg" alt="" />
-<img class="absolute left-44 top-20 z-10" src="klat_2.svg" alt="" />
-<img class="absolute left-9 top-50 z-10" src="klat_3.svg" alt="" />
+<img class="absolute md:top-3/4 top-[150%] z-10 opacity-30" src="klat_1.svg" alt="" />
+<img class="absolute md:left-44 left-2 top-20 z-10 opacity-30" src="klat_2.svg" alt="" />
+<img class="absolute left-9 top-[240%] md:top-[120%]  z-10 opacity-30" src="klat_3.svg" alt="" />
 <section>
 	<div class="container">
 		<div class="left">

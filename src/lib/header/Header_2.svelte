@@ -134,7 +134,7 @@
 		height: 26px;
 
 		cursor: pointer;
-		z-index: 1;
+		z-index: 100;
 	}
 
 	.menu__btn > span,
@@ -167,6 +167,7 @@
 		visibility: hidden;
 		top: 0;
 		right: -100%;
+		z-index: 90;
 
 		width: 100%;
 		height: 100%;
@@ -185,6 +186,10 @@
 	@media (max-width: 600px) {
 		.desktop-menu {
 			display: none;
+		}
+		nav a {
+			color: white;
+			font-size: 1.1rem;
 		}
 
 		a:hover {

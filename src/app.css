@@ -6,6 +6,7 @@
 		min-height: 100vh;
 		margin: 0;
 		background-color: #fffdf6;
+		overflow-x: hidden;
 	}
 
 	main {
@@ -44,11 +45,11 @@
 	p {
 		font-weight: 400;
 		color: black;
-		text-shadow: 1px 0.5px 5px white;
+		text-shadow: 0.5px 0.5px 2px white;
 	}
 
 	p {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		line-height: 1.7;
 	}
 
