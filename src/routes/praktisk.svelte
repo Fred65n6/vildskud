@@ -38,51 +38,66 @@
 		<div class="container_grid">
 			<div class="">
 				<h2>Anemonen</h2>
-				<h3>- Suhmsgade 4,</h3>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.3697746614553!2d12.574020315880555!3d55.6825586805346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531a8bed4311%3A0xad6deac9c5e0135b!2sAnemonen!5e0!3m2!1sda!2sdk!4v1651039964389!5m2!1sda!2sdk"
-					width="400"
-					height="300"
-					style="border:0;"
-					loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"
-				/>
+				<h3>KBH K</h3>
+				<p>
+					- Anemonen er et Åbent Scenekunsthus i hjertet af København, der producerer scenekunst og
+					lægger hus til de bedste gæstespil for børn og unge fra hele landet.
+				</p>
+				<div class="knapper">
+					<a href="https://www.anemonen.dk/">Se hjemmesiden</a>
+					<a
+						href="https://www.google.com/maps/dir//anemonen/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4652531a8bed4311:0xad6deac9c5e0135b?sa=X&ved=2ahUKEwj0uu754Lb3AhUQQvEDHdFVBwkQ9Rd6BAg-EAU"
+						>find på kort →</a
+					>
+				</div>
 			</div>
 			<div class="">
 				<h2>Christianshavn beboerhus</h2>
-				<h3>- Dronningensgade 34</h3>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.01683046265!2d12.588830715880116!3d55.67130748053163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652533f2644b35f%3A0x768bf0bbbb10929!2sChristianshavns%20Beboerhus!5e0!3m2!1sda!2sdk!4v1651040042926!5m2!1sda!2sdk"
-					width="400"
-					height="300"
-					style="border:0;"
-					loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"
-				/>
+				<h3>Christianshavn</h3>
+				<p>
+					- Beboerhuset er et samlingspunkt for folk på Christianshavn. Huset blivervet af
+					frivillige, og huser en café, forskellige værksteder og øvelokaler.
+				</p>
+
+				<div class="knapper">
+					<a href="https://www.beboerhus.dk/">Se hjemmesiden</a>
+					<a
+						href="https://www.google.com/maps/dir//beboerhuset/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4652533f2644b35f:0x768bf0bbbb10929?sa=X&ved=2ahUKEwjTqqre4bb3AhXAQ_EDHT3PBoUQ9Rd6BAhJEAU"
+						>Find på kort →</a
+					>
+				</div>
 			</div>
 			<div class="">
-				<h2>Zeppelin</h2>
-				<h3>- Vesterbrogade 45</h3>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.9619003409794!2d12.553811815880136!3d55.67226268053194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525374cd319f05%3A0x8fe3a7e6d4fd02df!2sZeppelin!5e0!3m2!1sda!2sdk!4v1651040139629!5m2!1sda!2sdk"
-					width="400"
-					height="300"
-					style="border:0;"
-					loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"
-				/>
+				<h2>Zeppelin bar</h2>
+				<h3>VESTERBRO</h3>
+				<p>
+					- Zeppelin bar er et lille intimt spillested i hjertet af Vesterbro. Normalt ligger stedet
+					scene til mange rockkoncerter i løbet af året og er kendt for sin intime atmosfære og
+					dedikerede publikum.
+				</p>
+				<div class="knapper">
+					<a href="http://zeppelincph.dk/forside/">Se hjemmesiden</a>
+					<a
+						href="https://www.google.com/maps/dir//zeppelin+bar/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x46525374cd319f05:0x8fe3a7e6d4fd02df?sa=X&ved=2ahUKEwiG9JmB4rb3AhUESfEDHabQCvoQ9Rd6BAhEEAU"
+						>Find på kort →</a
+					>
+				</div>
 			</div>
 			<div class="">
-				<h2>Xenon</h2>
-				<h3>- Rådhusstræde</h3>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.7211251313156!2d12.572556515880322!3d55.676449480533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531164c15555%3A0x1d6dee26df01fa8a!2sXenon!5e0!3m2!1sda!2sdk!4v1651039604254!5m2!1sda!2sdk"
-					width="400"
-					height="300"
-					style="border:0;"
-					loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"
-				/>
+				<h2>Xenon & VOX</h2>
+				<h3>KBH K</h3>
+				<p>
+					- Xenon og VOX er en del af Teaterhuset, som har til huse i HUSET KBH. HUSET er en
+					københavnsk kulturinstitution, som igennem 50 år har lagt lokaler til utalige koncerter,
+					forestillinger og kulturarrangementer
+				</p>
+				<div class="knapper">
+					<a href="https://www.teater-huset.dk/">Se hjemmesiden</a>
+					<a
+						href="https://www.google.com/maps/dir//xenon+k%C3%B8benhavn/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4652531164c15555:0x1d6dee26df01fa8a?sa=X&ved=2ahUKEwiw-r-V4rb3AhUYQ_EDHYZ3DzYQ9Rd6BAg-EAM"
+						>Find på kort →</a
+					>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -91,9 +106,14 @@
 <Footer />
 
 <style>
-	.container {
-		position: static;
-		z-index: 50;
+	.knapper {
+		margin-block: 2rem;
+	}
+
+	a {
+		background: black;
+		color: white;
+		padding: 1rem;
 	}
 	.container_2 {
 		padding-top: 4rem;
@@ -101,13 +121,20 @@
 		z-index: 50;
 	}
 
+	h2 {
+		font-weight: 700;
+	}
 	.container_grid {
 		display: grid;
 		grid-template-columns: 1fr;
+		place-items: center;
+		text-align: center;
+		gap: 100px;
 	}
 
 	@media (min-width: 650px) {
 		.container_grid {
+			padding-block: 4rem;
 			grid-template-columns: 1fr 1fr;
 			gap: 100px;
 		}
