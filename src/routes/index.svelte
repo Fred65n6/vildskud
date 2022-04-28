@@ -20,8 +20,8 @@
 		<br />
 		<div class="knapper">
 			<button><a sveltekit:prefetch href="forestillinger">Forestillinger & events →</a></button>
-			<button class="bg-[#fffdf6]"
-				><a class="text-red-700" sveltekit:prefetch href="billetter">Billetter →</a></button
+			<button class="bg-[#fffdf6] "
+				><a class="text-red-700 " sveltekit:prefetch href="billetter">Billetter →</a></button
 			>
 		</div>
 	</div>
@@ -50,7 +50,7 @@
 <style>
 	#hero {
 		background-image: url('../../static/hero_bg_2.svg');
-		/* background-image: url('hero_bg_2.svg'); */
+		background-image: url('hero_bg_2.svg');
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -70,6 +70,10 @@
 		width: 17rem;
 		margin-top: 9rem;
 		margin-bottom: 5rem;
+	}
+
+	.knapper a:hover {
+		text-decoration: none;
 	}
 
 	.knapper {
