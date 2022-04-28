@@ -20,7 +20,10 @@
 		<br />
 		<div class="knapper">
 			<button><a sveltekit:prefetch href="forestillinger">Forestillinger & events →</a></button>
-			<button><a sveltekit:prefetch href="billetter">Billetter →</a></button>
+			<button
+				><a class="bg-[#fffdf6] text-red-700" sveltekit:prefetch href="billetter">Billetter →</a
+				></button
+			>
 		</div>
 	</div>
 </div>
