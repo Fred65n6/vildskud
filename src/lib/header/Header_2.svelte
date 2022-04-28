@@ -17,7 +17,7 @@
 				</li>
 				<!-- <li class:active={$page.url.pathname === '/praktisk'}> -->
 				<div class="dropdown">
-					<a href="/" class="dropbtn">Praktisk info ▼</a>
+					<a href="praktisk" class="dropbtn">Praktisk info ▼</a>
 					<div class="dropdown-content">
 						<a sveltekit:prefetch href="/praktisk">Venues</a>
 						<a sveltekit:prefetch href="/billetter">Billetter</a>
