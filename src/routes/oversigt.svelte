@@ -24,8 +24,8 @@
 
 <section>
 	<h1 class="sticky z-50">Programoversigt</h1>
-	<img class="absolute z-10 left-44 top-[120%]  md:top-[80%] opacity-40 " src="klat_1.svg" alt="" />
-	<img class="absolute right-[35%] top-[25%] z-10 opacity-40" src="klat_4.svg" alt="" />
+	<img class="absolute z-10 left-44 top-[120%]  md:top-[80%] opacity-40 " src="klat_5.svg" alt="" />
+	<img class="absolute right-[35%] top-[25%] z-10 opacity-40" src="klat_7.svg" alt="" />
 	<img class="absolute right-40 top-[180%] md:top-[98%]  z-10 opacity-40" src="klat_2.svg" alt="" />
 </section>
 <section class="container">

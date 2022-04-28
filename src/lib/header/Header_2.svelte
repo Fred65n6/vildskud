@@ -15,9 +15,15 @@
 				<li class:active={$page.url.pathname === '/oversigt'}>
 					<a sveltekit:prefetch href="/oversigt">Programoversigt</a>
 				</li>
-				<li class:active={$page.url.pathname === '/praktisk'}>
-					<a sveltekit:prefetch href="/praktisk">Praktisk info</a>
-				</li>
+				<!-- <li class:active={$page.url.pathname === '/praktisk'}> -->
+				<div class="dropdown">
+					<a href="/" class="dropbtn">Praktisk info ▼</a>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/praktisk">Venues</a>
+						<a sveltekit:prefetch href="/billetter">Billetter</a>
+					</div>
+				</div>
+				<!-- </li> -->
 				<li class:active={$page.url.pathname === '/vaer_med'}>
 					<a sveltekit:prefetch href="/vaer_med">Vær med</a>
 				</li>
@@ -41,7 +47,10 @@
 					<a sveltekit:prefetch href="/oversigt">Programoversigt</a>
 				</li>
 				<li class:active={$page.url.pathname === '/praktisk'}>
-					<a sveltekit:prefetch href="/praktisk">Praktisk info</a>
+					<a sveltekit:prefetch href="/praktisk">Venues</a>
+				</li>
+				<li class:active={$page.url.pathname === '/billetter'}>
+					<a sveltekit:prefetch href="/billetter">Billetter</a>
 				</li>
 				<li class:active={$page.url.pathname === '/vaer_med'}>
 					<a sveltekit:prefetch href="/vaer_med">Vær med</a>
@@ -95,7 +104,6 @@
 
 	a:hover {
 		color: black;
-		text-decoration: underline;
 	}
 
 	.hamburger-menu li {
@@ -187,10 +195,6 @@
 		.desktop-menu {
 			display: none;
 		}
-		nav a {
-			color: white;
-			font-size: 1.1rem;
-		}
 
 		a:hover {
 			color: #b12222;
@@ -201,5 +205,35 @@
 		.hamburger-menu {
 			display: none;
 		}
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+		text-align: center;
+	}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropdown-content a:hover {
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
 	}
 </style>

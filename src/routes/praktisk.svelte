@@ -23,34 +23,16 @@
 </svelte:head>
 
 <section>
-	<h1>Praktisk info</h1>
-	<img class="absolute z-10 left-44 top-[170%]  md:top-[80%] opacity-40 " src="klat_2.svg" alt="" />
-	<img class="absolute right-[35%] top-[25%] z-10 opacity-40" src="klat_1.svg" alt="" />
-	<img class="absolute right-40 md/top-[180%] top-[98%]  z-10 opacity-40" src="klat_4.svg" alt="" />
-</section>
+	<h1>FIND OS HER</h1>
+	<img class="absolute z-10 left-44 top-[170%]  md:top-[80%] opacity-40 " src="klat_3.svg" alt="" />
+	<img class="absolute right-[35%] top-[25%] z-10 opacity-40" src="klat_2.svg" alt="" />
+	<img class="absolute right-40 md/top-[180%] top-[98%]  z-10 opacity-40" src="klat_7.svg" alt="" />
 
-<section>
-	<div class="container">
-		<h2>Billetter</h2>
-		<br />
-		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus impedit doloremque
-			quibusdam neque atque dolore ex repudiandae fugiat eveniet quisquam porro tempore earum veniam
-			aperiam, beatae deserunt asperiores consequuntur obcaecati similique. Voluptate corrupti
-			laborum dignissimos sed libero dicta, voluptatem officia sunt cumque tempore exercitationem
-			tempora ipsum atque nemo soluta odio optio quibusdam corporis nostrum, iusto, recusandae
-			explicabo quos et nesciunt. Consectetur aperiam atque quaerat! Numquam blanditiis et officia,
-			alias dicta facilis autem tempore commodi, suscipit similique architecto libero cumque enim
-			sed. Impedit, placeat aliquam. Aspernatur esse vero molestiae enim, laborum iure hic,
-			recusandae rem ipsam error, aliquid dolores nemo repudiandae.
-		</p>
-	</div>
 	<div class="container_2">
-		<h2>Lokationer</h2>
-		<br />
 		<p>
-			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt voluptatem blanditiis unde
-			eos. Hic quisquam laudantium quis ipsam blanditiis nobis.
+			Du har købt en billet til Vildskud Festival eller er lige ved at købe en... men så opstår
+			spørgsmålet: Hvor filan er det egentlig, at jeg kan se forestillingerne? Frygt ej! Herunder
+			finder du al den info, som du har brug for for at finde frem til årets venues.
 		</p>
 		<br />
 		<div class="container_grid">
@@ -62,8 +44,6 @@
 					width="400"
 					height="300"
 					style="border:0;"
-					// @ts-ignore
-					allowfullscreen=""
 					loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade"
 				/>
@@ -76,7 +56,6 @@
 					width="400"
 					height="300"
 					style="border:0;"
-					allowfullscreen=""
 					loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade"
 				/>
@@ -89,7 +68,6 @@
 					width="400"
 					height="300"
 					style="border:0;"
-					allowfullscreen=""
 					loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade"
 				/>
@@ -102,7 +80,6 @@
 					width="400"
 					height="300"
 					style="border:0;"
-					allowfullscreen=""
 					loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade"
 				/>
