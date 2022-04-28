@@ -14,7 +14,7 @@
 		<div class="image">
 			<img src="hero_logo_2.svg" alt="logo" />
 			<br />
-			<p class="text-center text-red-700">2. - 3. - 4. - 5. - 6. <br />AUGUST 2020</p>
+			<p class="text-center text-red-700">2. - 3. - 4. - 5. - 6. <br />AUGUST 2022</p>
 		</div>
 
 		<br />
