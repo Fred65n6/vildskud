@@ -11,12 +11,17 @@
 <div id="hero">
 	<div class="container">
 		<Header />
-		<img src="hero_logo_2.svg" alt="logo" />
+		<div class="image">
+			<img src="hero_logo_2.svg" alt="logo" />
+			<br />
+			<p class="text-center text-red-700">2. - 3. - 4. - 5. - 6. <br />AUGUST 2020</p>
+		</div>
+
+		<br />
 		<div class="knapper">
 			<button><a sveltekit:prefetch href="forestillinger">Forestillinger & events →</a></button>
 			<button><a sveltekit:prefetch href="billetter">Billetter →</a></button>
 		</div>
-		<p class="text-center text-white">2. - 3. - 4. - 5. - 6. <br />AUGUST 2020</p>
 	</div>
 </div>
 
@@ -42,7 +47,7 @@
 <style>
 	#hero {
 		background-image: url('../../static/hero_bg_2.svg');
-		/* background-image: url('hero_bg.svg'); */
+		background-image: url('hero_bg_2.svg');
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -58,9 +63,10 @@
 		flex: 1;
 	}
 
-	img {
+	.image {
 		width: 17rem;
-		margin-block: 9rem;
+		margin-top: 9rem;
+		margin-bottom: 5rem;
 	}
 
 	.knapper {
@@ -88,13 +94,12 @@
 	}
 
 	@media (min-width: 650px) {
-		img {
+		.image {
 			width: 25rem;
-			margin-block: 7.5rem;
+			margin-block: 5.5rem;
 		}
 		.knapper {
 			display: flex;
-
 			padding-bottom: 2rem;
 		}
 	}
