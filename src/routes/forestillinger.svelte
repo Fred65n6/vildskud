@@ -60,9 +60,9 @@
 	</div>
 
 	<div class="container">
-		<article class="mix mandag">
+		<article class="">
 			<a sveltekit:prefetch href="forestilling">
-				<div class="stk_1">
+				<div class="stk_1 ">
 					<h2>Skammer <span>du dig nu?</span></h2>
 					<h3>- Xenon</h3>
 					<p>Tør du se din egen skam i øjnene?</p>
@@ -194,6 +194,10 @@
 		text-decoration: none;
 	}
 
+	h2 {
+		font-weight: 600;
+	}
+
 	.container {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -202,75 +206,76 @@
 	}
 
 	.stk_1 {
-		width: 20rem;
-		height: 20rem;
+		width: 30rem;
+		height: 30rem;
 		text-align: center;
-		background-image: url('../../static/klat_1.svg');
+		background-image: url('../../static/stk_1.svg');
+		/* background-image: url('stk_1.svg'); */
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding-top: 5rem;
+		padding-top: 12rem;
 	}
 
 	.stk_2 {
-		width: 20rem;
-		height: 20rem;
+		width: 30rem;
+		height: 30rem;
 		text-align: center;
-		background-image: url('../../static/klat_2.svg');
+		background-image: url('../../static/stk_2.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding-top: 5rem;
+		padding-top: 12rem;
 	}
 	.stk_3 {
-		width: 20rem;
-		height: 20rem;
+		width: 30rem;
+		height: 30rem;
 		text-align: center;
-		background-image: url('../../static/klat_3.svg');
+		background-image: url('../../static/stk_3.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding-top: 5rem;
+		padding-top: 12rem;
 	}
 
 	.stk_4 {
-		width: 20rem;
-		height: 20rem;
+		width: 30rem;
+		height: 30rem;
 		text-align: center;
-		background-image: url('../../static/klat_4.svg');
+		background-image: url('../../static/stk_4.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding-top: 5rem;
+		padding-top: 12rem;
 	}
 	.stk_5 {
-		width: 20rem;
-		height: 20rem;
+		width: 30rem;
+		height: 30rem;
 		text-align: center;
-		background-image: url('../../static/klat_5.svg');
+		background-image: url('../../static/stk_5.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding-top: 5rem;
+		padding-top: 12rem;
 	}
 	.stk_6 {
-		width: 20rem;
-		height: 20rem;
+		width: 30rem;
+		height: 30rem;
 		text-align: center;
-		background-image: url('../../static/klat_6.svg');
+		background-image: url('../../static/stk_6.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding-top: 5rem;
+		padding-top: 12rem;
 	}
 	.stk_7 {
-		width: 20rem;
-		height: 20rem;
+		width: 30rem;
+		height: 30rem;
 		text-align: center;
-		background-image: url('../../static/klat_7.svg');
+		background-image: url('../../static/stk_7.svg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding-top: 5rem;
+		padding-top: 12rem;
 	}
 
 	@media (min-width: 650px) {
 		.container {
 			display: grid;
-			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr;
 			gap: 50px;
 			align-items: center;
 		}
