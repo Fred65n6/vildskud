@@ -26,7 +26,7 @@
 
 <section>
 	<div class="filtersort">
-		<form class="grid place-items-center pb-12">
+		<form class="grid place-items-center pb-8">
 			<div class="dropdown">
 				<button class="dropbtn">VÆLG DATO ▼</button>
 				<div class="dropdown-content">

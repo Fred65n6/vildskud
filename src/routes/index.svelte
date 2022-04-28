@@ -27,6 +27,7 @@
 
 <section>
 	<h2>Forestillinger <span>& events</span></h2>
+	<br />
 	<div class="grid md:grid-cols-2 place-items-center">
 		<div class="">
 			<img src="billetter.svg" alt="" />
