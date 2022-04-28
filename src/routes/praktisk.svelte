@@ -24,9 +24,9 @@
 
 <section>
 	<h1>Praktisk info</h1>
-	<img class="absolute z-10 left-44 top-[170%]  md:top-[80%] opacity-40 " src="klat_1.svg" alt="" />
-	<img class="absolute right-[35%] top-[25%] z-10 opacity-40" src="klat_4.svg" alt="" />
-	<img class="absolute right-40 md/top-[180%] top-[98%]  z-10 opacity-40" src="klat_2.svg" alt="" />
+	<img class="absolute z-10 left-44 top-[170%]  md:top-[80%] opacity-40 " src="klat_2.svg" alt="" />
+	<img class="absolute right-[35%] top-[25%] z-10 opacity-40" src="klat_1.svg" alt="" />
+	<img class="absolute right-40 md/top-[180%] top-[98%]  z-10 opacity-40" src="klat_4.svg" alt="" />
 </section>
 
 <section>
