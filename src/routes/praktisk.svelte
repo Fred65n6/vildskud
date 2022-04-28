@@ -62,6 +62,7 @@
 					width="400"
 					height="300"
 					style="border:0;"
+					// @ts-ignore
 					allowfullscreen=""
 					loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade"
