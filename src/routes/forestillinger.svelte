@@ -159,7 +159,7 @@
 		display: none;
 		position: absolute;
 		text-align: center;
-		background-color: #f9f9f9;
+		background-color: #fffdf6;
 		min-width: 320px;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1;
