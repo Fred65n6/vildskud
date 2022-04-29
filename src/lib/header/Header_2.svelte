@@ -231,7 +231,7 @@
 	}
 
 	.dropdown-content a:hover {
-		background-color: #f1f1f1;
+		text-decoration: underline;
 	}
 
 	.dropdown:hover .dropdown-content {
