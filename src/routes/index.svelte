@@ -21,7 +21,7 @@
 		<div class="knapper">
 			<button><a sveltekit:prefetch href="forestillinger">Forestillinger & events →</a></button>
 			<button class="bg-[#fffdf6] "
-				><a class="text-red-700 " sveltekit:prefetch href="billetter">Billetter →</a></button
+				><a class="text-red-700" sveltekit:prefetch href="billetter">Billetter →</a></button
 			>
 		</div>
 	</div>
@@ -64,6 +64,10 @@
 		justify-content: center;
 		align-items: center;
 		flex: 1;
+	}
+
+	button:hover {
+		text-decoration: underline;
 	}
 
 	.image {
