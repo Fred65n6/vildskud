@@ -182,8 +182,7 @@
 	}
 
 	.dropdown a:hover {
-		background-color: black;
-		color: white;
+		text-decoration: underline;
 	}
 
 	article:hover {
