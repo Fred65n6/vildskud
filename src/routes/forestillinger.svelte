@@ -28,7 +28,7 @@
 	<div class="filtersort">
 		<form class="grid place-items-center pb-8">
 			<div class="dropdown">
-				<button class="dropbtn">VÆLG DATO ▼</button>
+				<button class="dropbtn button">VÆLG DATO ▼</button>
 				<div class="dropdown-content">
 					<a href="/">2/8</a>
 					<a href="/">3/8</a>
@@ -142,12 +142,12 @@
 
 <style>
 	.dropbtn {
-		background-color: black;
-		color: white;
+		color: black;
 		padding: 16px;
 		font-size: 16px;
 		border: none;
 		cursor: pointer;
+		border: solid 2px black;
 	}
 
 	.dropdown {
@@ -158,10 +158,12 @@
 	.dropdown-content {
 		display: none;
 		position: absolute;
+		text-align: center;
 		background-color: #f9f9f9;
-		min-width: 160px;
+		min-width: 320px;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1;
+		border-radius: 24px;
 	}
 
 	.dropdown-content a {

@@ -16,6 +16,7 @@
 
 	span {
 		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-weight: 100;
 	}
 
 	body::before {
@@ -69,6 +70,24 @@
 	h2 {
 		font-size: 1.8rem;
 		text-transform: uppercase;
+	}
+
+	button {
+		text-transform: uppercase;
+		color: black;
+		border: solid 2px black;
+		border-radius: 12px;
+		padding: 1rem;
+		width: 20rem;
+	}
+
+	.button {
+		text-transform: uppercase;
+		color: black;
+		border: solid 2px black;
+		border-radius: 40px/24px;
+		padding-block: 0.5rem;
+		width: 20rem;
 	}
 
 	h3 {

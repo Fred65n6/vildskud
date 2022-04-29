@@ -44,8 +44,9 @@
 					lægger hus til de bedste gæstespil for børn og unge fra hele landet.
 				</p>
 				<div class="knapper">
-					<a href="https://www.anemonen.dk/">Se hjemmesiden</a>
+					<a class="button" href="https://www.anemonen.dk/">Se hjemmesiden →</a>
 					<a
+						class="button"
 						href="https://www.google.com/maps/dir//anemonen/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4652531a8bed4311:0xad6deac9c5e0135b?sa=X&ved=2ahUKEwj0uu754Lb3AhUQQvEDHdFVBwkQ9Rd6BAg-EAU"
 						>find på kort →</a
 					>
@@ -60,8 +61,9 @@
 				</p>
 
 				<div class="knapper">
-					<a href="https://www.beboerhus.dk/">Se hjemmesiden</a>
+					<a class="button" href="https://www.beboerhus.dk/">Se hjemmesiden →</a>
 					<a
+						class="button"
 						href="https://www.google.com/maps/dir//beboerhuset/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4652533f2644b35f:0x768bf0bbbb10929?sa=X&ved=2ahUKEwjTqqre4bb3AhXAQ_EDHT3PBoUQ9Rd6BAhJEAU"
 						>Find på kort →</a
 					>
@@ -76,8 +78,9 @@
 					dedikerede publikum.
 				</p>
 				<div class="knapper">
-					<a href="http://zeppelincph.dk/forside/">Se hjemmesiden</a>
+					<a class="button" href="http://zeppelincph.dk/forside/">Se hjemmesiden →</a>
 					<a
+						class="button"
 						href="https://www.google.com/maps/dir//zeppelin+bar/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x46525374cd319f05:0x8fe3a7e6d4fd02df?sa=X&ved=2ahUKEwiG9JmB4rb3AhUESfEDHabQCvoQ9Rd6BAhEEAU"
 						>Find på kort →</a
 					>
@@ -92,8 +95,9 @@
 					forestillinger og kulturarrangementer
 				</p>
 				<div class="knapper">
-					<a href="https://www.teater-huset.dk/">Se hjemmesiden</a>
+					<a class="button" href="https://www.teater-huset.dk/">Se hjemmesiden →</a>
 					<a
+						class="button"
 						href="https://www.google.com/maps/dir//xenon+k%C3%B8benhavn/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4652531164c15555:0x1d6dee26df01fa8a?sa=X&ved=2ahUKEwiw-r-V4rb3AhUYQ_EDHYZ3DzYQ9Rd6BAg-EAM"
 						>Find på kort →</a
 					>
@@ -110,15 +114,14 @@
 		margin-block: 2rem;
 	}
 
-	a {
-		background: black;
-		color: white;
-		padding: 1rem;
-	}
 	.container_2 {
 		padding-top: 4rem;
 		position: static;
 		z-index: 50;
+	}
+
+	a {
+		padding-inline: 1rem;
 	}
 
 	h2 {
