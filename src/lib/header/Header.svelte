@@ -103,7 +103,7 @@
 	}
 
 	a:hover {
-		color: black;
+		text-decoration: underline;
 	}
 
 	.hamburger-menu li {
