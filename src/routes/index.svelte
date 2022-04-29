@@ -83,7 +83,7 @@
 	}
 
 	a:hover {
-		color: black;
+		text-decoration: underline;
 	}
 
 	#hero button {
